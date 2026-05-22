@@ -261,7 +261,7 @@
                 td(style="background-color: #F0F8FF;") padding: 8px 12px;
                 td(style="background-color: #F0F8FF;") Define el espacio interno entre el contenido y el borde del elemento.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") border
+                td(style="background-color: #F0F8FF;") border
                 td(style="background-color: #F0F8FF;") border: 1px solid #ccc;
                 td(style="background-color: #F0F8FF;") Establece el borde del elemento indicando grosor, estilo y color.
               tr(data-aos="fade-right")
@@ -283,7 +283,7 @@
                 td(style="background-color: #F0F8FF;") background: linear-gradient(#fff, #eee);
                 td(style="background-color: #F0F8FF;") Define el color, imagen o gradiente del fondo.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") opacity
+                td(style="background-color: #F0F8FF;") opacity
                 td(style="background-color: #F0F8FF;") opacity: 0.8;
                 td(style="background-color: #F0F8FF;") Controla el nivel de transparencia del elemento.
               tr(data-aos="fade-right")

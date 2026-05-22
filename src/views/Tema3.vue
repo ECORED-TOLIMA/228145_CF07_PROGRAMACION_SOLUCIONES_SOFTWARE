@@ -86,33 +86,33 @@
                 td Bloque de navegación con enlaces.
                 td Menú de navegación del sitio
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") &lt;main&gt;
+                td(style="background-color: #F0F8FF;") &lt;main&gt;
                 td(style="background-color: #F0F8FF;") Contenido principal de la página.
                 td(style="background-color: #F0F8FF;") Área central con la información principal.
               tr(data-aos="fade-right")
-                td.text-center &lt;article&gt;
+                td &lt;article&gt;
                 td Contenido independiente o reutilizable.
                 td Entrada de blog o noticia.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") &lt;section&gt;
-                td.text-center(style="background-color: #F0F8FF;") Agrupación temática de contenido.
-                td.text-center(style="background-color: #F0F8FF;") Sección de productos o servicios.
+                td(style="background-color: #F0F8FF;") &lt;section&gt;
+                td(style="background-color: #F0F8FF;") Agrupación temática de contenido.
+                td(style="background-color: #F0F8FF;") Sección de productos o servicios.
               tr(data-aos="fade-right")
-                td.text-center &lt;aside&gt;
+                td &lt;aside&gt;
                 td Contenido complementario.
                 td Barra lateral con información adicional.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") &lt;footer&gt;
-                td.text-center(style="background-color: #F0F8FF;") Pie de página.
-                td.text-center(style="background-color: #F0F8FF;") Información de contacto o derechos de autor.
+                td(style="background-color: #F0F8FF;") &lt;footer&gt;
+                td(style="background-color: #F0F8FF;") Pie de página.
+                td(style="background-color: #F0F8FF;") Información de contacto o derechos de autor.
               tr(data-aos="fade-right")
-                td.text-center &lt;figure&gt; y &lt;figcaption&gt;
+                td &lt;figure&gt; y &lt;figcaption&gt;
                 td Elemento ilustrativo con descripción.
                 td Imagen o gráfico con texto explicativo.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") &lt;time&gt;
-                td.text-center(style="background-color: #F0F8FF;") Representación de fechas u horas.
-                td.text-center(style="background-color: #F0F8FF;") Fecha de publicación de un artículo.
+                td(style="background-color: #F0F8FF;") &lt;time&gt;
+                td(style="background-color: #F0F8FF;") Representación de fechas u horas.
+                td(style="background-color: #F0F8FF;") Fecha de publicación de un artículo.
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -130,7 +130,7 @@
           table
             thead
               tr(data-aos="fade-right")
-                th(style="width: 20%; background-color: #FFEEBC;") Atributo
+                th(style="width: 10%; background-color: #FFEEBC;") Atributo
                 th(style="width: 20%; background-color: #FFEEBC;") Propósito
                 th(style="width: 20%; background-color: #FFEEBC;") Ejemplo
             tbody
@@ -143,31 +143,31 @@
                 td Clasificación de elementos para aplicar estilos.
                 td &lt;button class="boton principal"&gt;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") style
+                td(style="background-color: #F0F8FF;") style
                 td(style="background-color: #F0F8FF;") Aplicación de estilos directamente en el elemento.
                 td(style="background-color: #F0F8FF;") &lt;p style="color:red;"&gt;Texto&lt;/p&gt;
               tr(data-aos="fade-right")
-                td.text-center data-*
+                td data-*
                 td Almacenamiento de datos personalizados.
                 td &lt;div data-id="123"&gt;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") hidden
-                td.text-center(style="background-color: #F0F8FF;") Oculta un elemento en la interfaz.
-                td.text-center(style="background-color: #F0F8FF;") &lt;div hidden&gt;Contenido&lt;/div&gt;
+                td(style="background-color: #F0F8FF;") hidden
+                td(style="background-color: #F0F8FF;") Oculta un elemento en la interfaz.
+                td(style="background-color: #F0F8FF;") &lt;div hidden&gt;Contenido&lt;/div&gt;
               tr(data-aos="fade-right")
-                td.text-center title
+                td title
                 td Texto informativo asociado al elemento.
                 td &lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") lang
-                td.text-center(style="background-color: #F0F8FF;") Indica el idioma del contenido.
-                td.text-center(style="background-color: #F0F8FF;") &lt;p lang="es"&gt;Hola&lt;/p&gt;
+                td(style="background-color: #F0F8FF;") lang
+                td(style="background-color: #F0F8FF;") Indica el idioma del contenido.
+                td(style="background-color: #F0F8FF;") &lt;p lang="es"&gt;Hola&lt;/p&gt;
               tr(data-aos="fade-right")
-                td.text-center tabindex
-                td.text-center Controla el orden de navegación con el teclado.
-                td.text-center &lt;input tabindex="1"&gt;
+                td tabindex
+                td Controla el orden de navegación con el teclado.
+                td &lt;input tabindex="1"&gt;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") aria-*
+                td(style="background-color: #F0F8FF;") aria-*
                 td(style="background-color: #F0F8FF;") Mejora la accesibilidad para tecnologías de asistencia.
                 td(style="background-color: #F0F8FF;") &lt;div aria-label="Cerrar"&gt;X&lt;/div&gt;
 
@@ -216,7 +216,7 @@
           table
             thead
               tr(data-aos="fade-right")
-                th(style="width: 20%; background-color: #FFEEBC;") Tipo
+                th(style="width: 10%; background-color: #FFEEBC;") Tipo
                 th(style="width: 20%; background-color: #FFEEBC;") Propósito
                 th(style="width: 20%; background-color: #FFEEBC;") Ejemplo
             tbody
@@ -229,45 +229,45 @@
                 td Campo para contraseñas con caracteres ocultos.
                 td &lt;input type="password" name="clave"&gt;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") email
+                td(style="background-color: #F0F8FF;") email
                 td(style="background-color: #F0F8FF;") Ingreso de correo electrónico.
                 td(style="background-color: #F0F8FF;") &lt;input type="email" name="email"&gt;
               tr(data-aos="fade-right")
-                td.text-center tel
+                td tel
                 td Número telefónico.
                 td &lt;input type="tel" name="telefono"&gt;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") number
-                td.text-center(style="background-color: #F0F8FF;") Valores numéricos.
-                td.text-center(style="background-color: #F0F8FF;") &lt;input type="number" name="edad" min="18"&gt;
+                td(style="background-color: #F0F8FF;") number
+                td(style="background-color: #F0F8FF;") Valores numéricos.
+                td(style="background-color: #F0F8FF;") &lt;input type="number" name="edad" min="18"&gt;
               tr(data-aos="fade-right")
-                td.text-center date
+                td date
                 td Selección de fecha.
                 td &lt;input type="date" name="fecha"&gt;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") checkbox
-                td.text-center(style="background-color: #F0F8FF;") Selección de opción sí o no.
-                td.text-center(style="background-color: #F0F8FF;") &lt;input type="checkbox" name="terminos"&gt;
+                td(style="background-color: #F0F8FF;") checkbox
+                td(style="background-color: #F0F8FF;") Selección de opción sí o no.
+                td(style="background-color: #F0F8FF;") &lt;input type="checkbox" name="terminos"&gt;
               tr(data-aos="fade-right")
-                td.text-center radio
-                td.text-center Selección única entre varias opciones.
-                td.text-center &lt;input type="radio" name="genero"&gt;
+                td radio
+                td Selección única entre varias opciones.
+                td &lt;input type="radio" name="genero"&gt;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") file
+                td(style="background-color: #F0F8FF;") file
                 td(style="background-color: #F0F8FF;") Carga de archivos.
                 td(style="background-color: #F0F8FF;") &lt;input type="file" name="documento"&gt;
               tr(data-aos="fade-right")
-                td.text-center color
-                td.text-center Selección de color.
-                td.text-center &lt;input type="color" name="color"&gt;
+                td color
+                td Selección de color.
+                td &lt;input type="color" name="color"&gt;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") range
+                td(style="background-color: #F0F8FF;") range
                 td(style="background-color: #F0F8FF;") Selección mediante control deslizante.
                 td(style="background-color: #F0F8FF;") &lt;input type="range" name="valor" min="0" max="100"&gt;
               tr(data-aos="fade-right")
-                td.text-center hidden
-                td.text-center Campo invisible que envía datos al servidor.
-                td.text-center &lt;input type="hidden" name="id"&gt;
+                td hidden
+                td Campo invisible que envía datos al servidor.
+                td &lt;input type="hidden" name="id"&gt;
 
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10

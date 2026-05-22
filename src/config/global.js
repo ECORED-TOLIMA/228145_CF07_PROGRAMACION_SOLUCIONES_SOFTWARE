@@ -186,12 +186,12 @@ export default {
     {
       termino: 'CSS',
       significado:
-        'lenguaje utilizado para definir la presentación visual de una página web, incluyendo colores, tipografías, márgenes y disposición de elementos.',
+        'lenguaje utilizado para definir la presentación visual de una página <em>web</em>, incluyendo colores, tipografías, márgenes y disposición de elementos.',
     },
     {
-      termino: 'Framework front-end',
+      termino: '<em>Framework front-end</em>',
       significado:
-        'conjunto de herramientas y librerías que facilitan el desarrollo de interfaces web mediante componentes reutilizables y estructuras predefinidas.',
+        'conjunto de herramientas y librerías que facilitan el desarrollo de interfaces <em>web</em> mediante componentes reutilizables y estructuras predefinidas.',
     },
     {
       termino: 'Formulario',
@@ -201,7 +201,7 @@ export default {
     {
       termino: 'HTML',
       significado:
-        'lenguaje de marcado utilizado para estructurar el contenido de las páginas web mediante etiquetas.',
+        'lenguaje de marcado utilizado para estructurar el contenido de las páginas <em>web</em> mediante etiquetas.',
     },
     {
       termino: 'Interfaz gráfica de usuario (GUI)',
@@ -209,7 +209,7 @@ export default {
         'entorno visual que permite la interacción entre el usuario y un sistema mediante elementos gráficos como botones, ventanas e íconos.',
     },
     {
-      termino: 'Layout (disposición)',
+      termino: '<em>Layout</em> (disposición)',
       significado:
         'organización y distribución de los elementos dentro de una interfaz para mejorar la usabilidad y la comprensión visual.',
     },
@@ -234,7 +234,7 @@ export default {
         'proceso de verificación del código fuente para asegurar que cumple con estándares establecidos y funciona correctamente.',
     },
     {
-      termino: 'Web',
+      termino: '<em>Web</em>',
       significado:
         'sistema de documentos e información enlazados que se acceden a través de Internet mediante navegadores.',
     },

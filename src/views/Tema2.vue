@@ -43,20 +43,20 @@
                 th(style="width: 50%; background-color: #FFEEBC;") Descripción
             tbody
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Formularios.
+                td(style="background-color: #F0F8FF;") Formularios.
                 td(style="background-color: #F0F8FF;") Ventanas principales de la aplicación donde se organizan y presentan los diferentes componentes de la interfaz gráfica. Funcionan como contenedores que permiten estructurar la interacción con el usuario.
               tr(data-aos="fade-right")
-                td.text-center Controles de interfaz.
+                td Controles de interfaz.
                 td Componentes visuales que permiten la interacción con el usuario, como botones, cuadros de texto, etiquetas, listas desplegables y casillas de verificación.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Cuadros de diálogo.
+                td(style="background-color: #F0F8FF;") Cuadros de diálogo.
                 td(style="background-color: #F0F8FF;") Ventanas secundarias que aparecen para solicitar información, mostrar mensajes o confirmar acciones realizadas por el usuario.
               tr(data-aos="fade-right")
-                td.text-center Menús.
+                td Menús.
                 td Elementos organizados generalmente en la parte superior de la ventana que agrupan comandos o funcionalidades de la aplicación.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Barras de herramientas.
-                td.text-center(style="background-color: #F0F8FF;") Conjuntos de iconos o botones que permiten acceder rápidamente a funciones comunes dentro de la aplicación.
+                td(style="background-color: #F0F8FF;") Barras de herramientas.
+                td(style="background-color: #F0F8FF;") Conjuntos de iconos o botones que permiten acceder rápidamente a funciones comunes dentro de la aplicación.
 
     p En conjunto, estos elementos permiten estructurar la interacción entre el usuario y la aplicación, favoreciendo el desarrollo de interfaces claras, organizadas y fáciles de utilizar dentro de los entornos de <em>software</em> de escritorio.
 
@@ -156,10 +156,10 @@
           table
             thead
               tr(data-aos="fade-right")
-                th(style="width: 20%; background-color: #FFEEBC;") Control
-                th(style="width: 20%; background-color: #FFEEBC;") Propósito
-                th(style="width: 20%; background-color: #FFEEBC;") Evento principal
-                th(style="width: 30%; background-color: #FFEEBC;") Ejemplo de código (C# WinForms)
+                th(style="width: 18%; background-color: #FFEEBC;") Control
+                th(style="width: 27%; background-color: #FFEEBC;") Propósito
+                th(style="width: 22%; background-color: #FFEEBC;") Evento principal
+                th(style="width: 33%; background-color: #FFEEBC;") Ejemplo de código (C# WinForms)
             tbody
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Label
@@ -172,62 +172,62 @@
                 td TextChanged
                 td string nombre = txtNombre.Text;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Button
+                td(style="background-color: #F0F8FF;") Button
                 td(style="background-color: #F0F8FF;") Ejecutar una acción.
                 td(style="background-color: #F0F8FF;") Click
                 td(style="background-color: #F0F8FF;") private void btnGuardar_Click(object sender, EventArgs e) { GuardarDatos(); }
               tr(data-aos="fade-right")
-                td.text-center CheckBox
+                td CheckBox
                 td Selección sí/no (0 o más opciones).
                 td CheckedChanged
                 td bool aplicaDescuento = chkDescuento.Checked;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") RadioButton
-                td.text-center(style="background-color: #F0F8FF;") Selección de una opción dentro de un grupo.
-                td.text-center(style="background-color: #F0F8FF;") CheckedChanged
-                td.text-center(style="background-color: #F0F8FF;") if (rbMasculino.Checked) { genero = "Masculino"; }
+                td(style="background-color: #F0F8FF;") RadioButton
+                td(style="background-color: #F0F8FF;") Selección de una opción dentro de un grupo.
+                td(style="background-color: #F0F8FF;") CheckedChanged
+                td(style="background-color: #F0F8FF;") if (rbMasculino.Checked) { genero = "Masculino"; }
               tr(data-aos="fade-right")
-                td.text-center ListBox
+                td ListBox
                 td Seleccionar uno o varios elementos de una lista visible.
                 td SelectedIndexChanged
                 td foreach(var item in lstProductos.SelectedItems)
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") DataGridView
-                td.text-center(style="background-color: #F0F8FF;") Presentar datos tabulares.
-                td.text-center(style="background-color: #F0F8FF;") CellClick, CellValueChanged
-                td.text-center(style="background-color: #F0F8FF;") dataGrid.DataSource = dataTable;
+                td(style="background-color: #F0F8FF;") DataGridView
+                td(style="background-color: #F0F8FF;") Presentar datos tabulares.
+                td(style="background-color: #F0F8FF;") CellClick, CellValueChanged
+                td(style="background-color: #F0F8FF;") dataGrid.DataSource = dataTable;
               tr(data-aos="fade-right")
-                td.text-center DateTimePicker
+                td DateTimePicker
                 td Seleccionar fecha y hora.
                 td ValueChanged
                 td DateTime fecha = dtpNacimiento.Value;
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") NumericUpDown
-                td.text-center(style="background-color: #F0F8FF;") Entrada de valores numéricos.
-                td.text-center(style="background-color: #F0F8FF;") ValueChanged.
-                td.text-center(style="background-color: #F0F8FF;") int cantidad = (int)numCantidad.Value;
+                td(style="background-color: #F0F8FF;") NumericUpDown
+                td(style="background-color: #F0F8FF;") Entrada de valores numéricos.
+                td(style="background-color: #F0F8FF;") ValueChanged.
+                td(style="background-color: #F0F8FF;") int cantidad = (int)numCantidad.Value;
               tr(data-aos="fade-right") 
-                td.text-center PictureBox
+                td PictureBox
                 td Presentar imágenes.
                 td Click (opcional)
                 td picLogo.Image = Image.FromFile("logo.png");
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Panel
-                td.text-center(style="background-color: #F0F8FF;") Agrupar controles para organización.
-                td.text-center(style="background-color: #F0F8FF;") Resize, Paint
-                td.text-center(style="background-color: #F0F8FF;") pnlBotones.Controls.Add(btnAceptar);
+                td(style="background-color: #F0F8FF;") Panel
+                td(style="background-color: #F0F8FF;") Agrupar controles para organización.
+                td(style="background-color: #F0F8FF;") Resize, Paint
+                td(style="background-color: #F0F8FF;") pnlBotones.Controls.Add(btnAceptar);
               tr(data-aos="fade-right") 
-                td.text-center GroupBox
+                td GroupBox
                 td Agrupar controles con borde y título.
                 td No aplica
                 td Agrupar RadioButtons dentro
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") TabControl
-                td.text-center(style="background-color: #F0F8FF;") Organizar contenido en pestañas.
-                td.text-center(style="background-color: #F0F8FF;") SelectedIndexChanged
-                td.text-center(style="background-color: #F0F8FF;") tabProductos.SelectedTab = tabDetalles;
+                td(style="background-color: #F0F8FF;") TabControl
+                td(style="background-color: #F0F8FF;") Organizar contenido en pestañas.
+                td(style="background-color: #F0F8FF;") SelectedIndexChanged
+                td(style="background-color: #F0F8FF;") tabProductos.SelectedTab = tabDetalles;
               tr(data-aos="fade-right") 
-                td.text-center ErrorProvider
+                td ErrorProvider
                 td Presentar indicadores de error de validación.
                 td Asociado a validación
                 td errorProvider.SetError(txtEmail, "Email inválido");

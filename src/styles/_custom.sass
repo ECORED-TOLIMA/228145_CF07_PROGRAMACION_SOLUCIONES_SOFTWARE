@@ -77,10 +77,15 @@
   color: $white !important
 
 .banner-principal
+  .banner-principal__row
+    transform: translateY(35px)
+    
+.banner-principal
   .container.tarjeta
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
-    background-size: cover
+    background-size: 100% 100% !important
     background-position: center
+    min-height: 520px
     @media (max-width: $bp-max-md)
       background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
       overflow: visible !important
@@ -423,3 +428,65 @@ figcaption
       h3
         font-size: .9rem
         line-height: 1.25
+
+// Tabla responsive con scroll horizontal
+.tabla-a
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+
+  table
+    width: 100%
+    min-width: 760px
+    table-layout: fixed
+
+    th,
+    td
+      white-space: normal
+      overflow-wrap: anywhere
+      word-break: break-word
+      vertical-align: middle
+
+    td
+      line-height: 1.35
+
+@media (max-width: 768px)
+  .tabla-a
+    overflow-x: auto
+    -webkit-overflow-scrolling: touch
+
+    table
+      min-width: 760px
+
+      th,
+      td
+        white-space: normal
+        overflow-wrap: anywhere
+        word-break: break-word
+        padding-left: 0.75rem
+        padding-right: 0.75rem
+
+@media (max-width: 425px)
+  .tabla-a
+    overflow-x: auto
+
+    table
+      min-width: 760px
+
+      th,
+      td
+        padding-left: 0.55rem
+        padding-right: 0.55rem
+        line-height: 1.3
+
+@media (max-width: 375px)
+  .tabla-a
+    overflow-x: auto
+
+    table
+      min-width: 760px
+
+      th,
+      td
+        padding-left: 0.45rem
+        padding-right: 0.45rem
+        line-height: 1.28

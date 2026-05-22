@@ -159,20 +159,20 @@
                 td Componentes con estructura simple.
                 td Arquitectura completa para aplicaciones.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Lenguaje principal.
+                td(style="background-color: #F0F8FF;") Lenguaje principal.
                 td(style="background-color: #F0F8FF;") JavaScript o TypeScript.
                 td(style="background-color: #F0F8FF;") JavaScript o TypeScript.
                 td(style="background-color: #F0F8FF;") TypeScript.
               tr(data-aos="fade-right")
-                td.text-center Curva de aprendizaje.
+                td Curva de aprendizaje.
                 td Baja a media.
                 td Baja.
                 td Media a alta.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Uso frecuente.
-                td.text-center(style="background-color: #F0F8FF;") Aplicaciones dinámicas y escalables.
-                td.text-center(style="background-color: #F0F8FF;") Aplicaciones pequeñas y medianas.
-                td.text-center(style="background-color: #F0F8FF;") Aplicaciones empresariales grandes.
+                td(style="background-color: #F0F8FF;") Uso frecuente.
+                td(style="background-color: #F0F8FF;") Aplicaciones dinámicas y escalables.
+                td(style="background-color: #F0F8FF;") Aplicaciones pequeñas y medianas.
+                td(style="background-color: #F0F8FF;") Aplicaciones empresariales grandes.
 
     p.mb-4 Además de estos <em>frameworks</em> principales, existen herramientas que permiten mejorar la experiencia de desarrollo y la organización de la interfaz. Entre sus características más importantes se encuentran las siguientes:
 

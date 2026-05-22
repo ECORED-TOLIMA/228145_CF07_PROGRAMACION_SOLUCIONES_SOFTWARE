@@ -124,27 +124,27 @@
                 th(style="width: 20%; background-color: #FFEEBC;") CLI (Línea de comandos)
             tbody
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Curva de aprendizaje.
+                td(style="background-color: #F0F8FF;") Curva de aprendizaje.
                 td(style="background-color: #F0F8FF;") Baja, debido a la exploración visual.
                 td(style="background-color: #F0F8FF;") Alta, requiere memorizar comandos.
               tr(data-aos="fade-right")
-                td.text-center Velocidad en tareas frecuentes.
+                td Velocidad en tareas frecuentes.
                 td Media, depende de la navegación por menús.
                 td Alta, permite ejecutar comandos directos.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Prevención de errores.
+                td(style="background-color: #F0F8FF;") Prevención de errores.
                 td(style="background-color: #F0F8FF;") Mayor, las opciones suelen ser visibles.
                 td(style="background-color: #F0F8FF;") Menor, los errores de sintaxis pueden afectar la ejecución.
               tr(data-aos="fade-right")
-                td.text-center Uso del espacio en pantalla
+                td Uso del espacio en pantalla
                 td Mayor, requiere elementos visuales.
                 td Menor, utiliza comandos de texto.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") Descubrimiento de funciones.
-                td.text-center(style="background-color: #F0F8FF;") Alto, las opciones son visibles.
-                td.text-center(style="background-color: #F0F8FF;") Bajo, depende del conocimiento previo.
+                td(style="background-color: #F0F8FF;") Descubrimiento de funciones.
+                td(style="background-color: #F0F8FF;") Alto, las opciones son visibles.
+                td(style="background-color: #F0F8FF;") Bajo, depende del conocimiento previo.
               tr(data-aos="fade-right")
-                td.text-center Uso principal.
+                td Uso principal.
                 td Aplicaciones para usuarios finales.
                 td Administración de sistemas y automatización.
 
@@ -294,35 +294,35 @@
                 td Uso de términos técnicos difíciles de comprender.
                 td Utilizar lenguaje claro y familiar para el usuario.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") 3. Control y libertad del usuario.
+                td(style="background-color: #F0F8FF;") 3. Control y libertad del usuario.
                 td(style="background-color: #F0F8FF;") No permitir cancelar o deshacer acciones.
                 td(style="background-color: #F0F8FF;") Incluir opciones como cancelar, deshacer o rehacer.
               tr(data-aos="fade-right")
-                td.text-center 4. Consistencia y estándares.
+                td 4. Consistencia y estándares.
                 td Ubicación o comportamiento diferente de los mismos elementos.
                 td Mantener estructura y comportamiento uniforme en toda la interfaz.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") 5. Prevención de errores.
-                td.text-center(style="background-color: #F0F8FF;") Permitir acciones críticas sin confirmación.
-                td.text-center(style="background-color: #F0F8FF;") Incorporar mensajes de confirmación o validaciones previas.
+                td(style="background-color: #F0F8FF;") 5. Prevención de errores.
+                td(style="background-color: #F0F8FF;") Permitir acciones críticas sin confirmación.
+                td(style="background-color: #F0F8FF;") Incorporar mensajes de confirmación o validaciones previas.
               tr(data-aos="fade-right")
-                td.text-center 6. Reconocimiento antes que recuerdo.
+                td 6. Reconocimiento antes que recuerdo.
                 td Obligar al usuario a memorizar comandos.
                 td Mostrar menús, iconos o sugerencias visibles.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") 7. Flexibilidad y eficiencia de uso.
-                td.text-center(style="background-color: #F0F8FF;") No incluir atajos para usuarios avanzados.
-                td.text-center(style="background-color: #F0F8FF;") Implementar teclas rápidas o accesos directos.
+                td(style="background-color: #F0F8FF;") 7. Flexibilidad y eficiencia de uso.
+                td(style="background-color: #F0F8FF;") No incluir atajos para usuarios avanzados.
+                td(style="background-color: #F0F8FF;") Implementar teclas rápidas o accesos directos.
               tr(data-aos="fade-right")
-                td.text-center 8. Diseño estético y minimalista.
+                td 8. Diseño estético y minimalista.
                 td Pantallas saturadas de información.
                 td Presentar solo los elementos necesarios para la tarea.
               tr(data-aos="fade-right")
-                td.text-center(style="background-color: #F0F8FF;") 9. Ayudar a reconocer, diagnosticar y recuperarse de errores.
-                td.text-center(style="background-color: #F0F8FF;") Mensajes de error confusos o con códigos técnicos.
-                td.text-center(style="background-color: #F0F8FF;") Mostrar mensajes claros que indiquen el problema y posible solución.
+                td(style="background-color: #F0F8FF;") 9. Ayudar a reconocer, diagnosticar y recuperarse de errores.
+                td(style="background-color: #F0F8FF;") Mensajes de error confusos o con códigos técnicos.
+                td(style="background-color: #F0F8FF;") Mostrar mensajes claros que indiquen el problema y posible solución.
               tr(data-aos="fade-right")
-                td.text-center 10. Ayuda y documentación.
+                td 10. Ayuda y documentación.
                 td Ausencia de guía o soporte dentro del sistema.
                 td Incluir ayuda contextual, tutoriales o documentación breve.
 
