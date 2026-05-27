@@ -25,9 +25,9 @@
           img(src='@/assets/curso/tema4/img-02.png', alt='')
       .col.col-lg-7.col-12.order-lg-2.order-2
         p El cumplimiento de estos estándares permite que una página <em>web</em> construida correctamente funcione de manera consistente en distintos navegadores, como Google Chrome, Mozilla Firefox, Safari o Microsoft Edge, así como en diversos sistemas operativos y dispositivos. De esta forma, los desarrolladores pueden crear aplicaciones <em>web</em> que no dependan de una plataforma específica y que ofrezcan una experiencia de usuario uniforme.
-        p.mb-0 No obstante, el uso de estándares por sí solo no siempre resulta suficiente para desarrollar aplicaciones <em>web</em> complejas de forma eficiente. A medida que los proyectos crecen en tamaño y funcionalidad, aumenta también la complejidad del código y la gestión de la interacción entre componentes de la interfaz. Para abordar estos desafíos surgieron los <em>frameworks</em> front-end, que proporcionan estructuras de desarrollo organizadas, reutilización de componentes y herramientas que facilitan la construcción de aplicaciones dinámicas.
+        p.mb-0 No obstante, el uso de estándares por sí solo no siempre resulta suficiente para desarrollar aplicaciones <em>web</em> complejas de forma eficiente. A medida que los proyectos crecen en tamaño y funcionalidad, aumenta también la complejidad del código y la gestión de la interacción entre componentes de la interfaz. Para abordar estos desafíos surgieron los <em>frameworks</em> <em>front-end</em>, que proporcionan estructuras de desarrollo organizadas, reutilización de componentes y herramientas que facilitan la construcción de aplicaciones dinámicas.
 
-    p Los <em>frameworks</em> front-end permiten trabajar con componentes reutilizables, gestionar el estado de la aplicación, implementar sistemas de navegación entre vistas y facilitar la comunicación con servicios externos mediante APIs. Además, simplifican la manipulación del DOM y contribuyen a mejorar el rendimiento y la mantenibilidad del código. Entre los <em>frameworks</em> y bibliotecas más utilizadas en el desarrollo de interfaces <em>web</em> modernas se encuentran React, Angular y Vue.js, los cuales se emplean ampliamente en la construcción de aplicaciones <em>web</em> interactivas y escalables.
+    p Los <em>frameworks</em> <em>front-end</em> permiten trabajar con componentes reutilizables, gestionar el estado de la aplicación, implementar sistemas de navegación entre vistas y facilitar la comunicación con servicios externos mediante APIs. Además, simplifican la manipulación del DOM y contribuyen a mejorar el rendimiento y la mantenibilidad del código. Entre los <em>frameworks</em> y bibliotecas más utilizadas en el desarrollo de interfaces <em>web</em> modernas se encuentran React, Angular y Vue.js, los cuales se emplean ampliamente en la construcción de aplicaciones <em>web</em> interactivas y escalables.
 
     Separador
 
@@ -101,7 +101,7 @@
             i.fas.fa-laptop-code
             p.mb-0 Facilitar el mantenimiento del código al seguir estructuras estandarizadas.
 
-    p.mb-4 En entornos de desarrollo profesional, la validación de código suele integrarse en procesos automatizados de revisión mediante herramientas como HTMLHint, stylelint para CSS y ESLint para JavaScript. Estas herramientas permiten detectar errores durante la escritura del código en editores como Visual Studio Code o WebStorm, antes de que los cambios sean incorporados al repositorio del proyecto.
+    p.mb-4 En entornos de desarrollo profesional, la validación de código suele integrarse en procesos automatizados de revisión mediante herramientas como HTMLHint, #[i stylelint] para CSS y ESLint para JavaScript. Estas herramientas permiten detectar errores durante la escritura del código en editores como Visual Studio Code o WebStorm, antes de que los cambios sean incorporados al repositorio del proyecto.
 
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10.col-12

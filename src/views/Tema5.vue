@@ -267,7 +267,7 @@
               tr(data-aos="fade-right")
                 td.text-center.align-middle(rowspan="2") Dimensionamiento
                 td width, height
-                td width: 100%; height: auto;
+                td width: 100 %; height: auto;
                 td Define el ancho y alto del elemento.
               tr(data-aos="fade-right")
                 td max-width

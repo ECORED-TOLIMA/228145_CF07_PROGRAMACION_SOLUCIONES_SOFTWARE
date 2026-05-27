@@ -35,7 +35,7 @@
         figure
           img(src='@/assets/curso/tema3/img-04.svg', alt='')
       .col.col-lg-11.col-12.order-lg-2.order-2
-        p.mb-0(data-aos="fade-down") El desarrollo de interfaces <em>web</em> constituye una de las habilidades más demandadas en el mercado laboral actual. Los perfiles profesionales relacionados con el desarrollo front-end o full stack requieren dominio de HTML5 semántico, CSS3 avanzado (incluyendo técnicas como flexbox y grid), manejo de <em>frameworks</em> modernos de JavaScript, comprensión de principios de diseño responsivo y conocimiento de estándares de accesibilidad <em>web</em>, con el fin de crear interfaces inclusivas, eficientes y funcionales para diferentes tipos de usuarios.
+        p.mb-0(data-aos="fade-down") El desarrollo de interfaces <em>web</em> constituye una de las habilidades más demandadas en el mercado laboral actual. Los perfiles profesionales relacionados con el desarrollo <em>front-end</em> o <em>full stack</em> requieren dominio de HTML5 semántico, CSS3 avanzado (incluyendo técnicas como <em>flexbox</em> y <em>grid</em>), manejo de <em>frameworks</em> modernos de JavaScript, comprensión de principios de diseño responsivo y conocimiento de estándares de accesibilidad <em>web</em>, con el fin de crear interfaces inclusivas, eficientes y funcionales para diferentes tipos de usuarios.
 
     Separador
 
@@ -49,9 +49,18 @@
       .col-xl.px-0
         .d-flex.align-items-start
           img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/tema3/img-06.svg' alt="")
-        p.mb-0 HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para definir la estructura de las páginas <em>web</em> mediante etiquetas, también conocidas como tags o elementos. Estas etiquetas permiten organizar el contenido de una página y establecer cómo se relacionan los diferentes elementos que la componen, como títulos, párrafos, imágenes, enlaces o formularios.
+        p.mb-0 HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para definir la estructura de las páginas <em>web</em> mediante etiquetas, también conocidas como <em>tags</em> o elementos. Estas etiquetas permiten organizar el contenido de una página y establecer cómo se relacionan los diferentes elementos que la componen, como títulos, párrafos, imágenes, enlaces o formularios.
 
-    p.mb-4 De manera general, una etiqueta HTML tiene la forma &lt;nombre&gt;contenido&lt;/nombre&gt; aunque también puede incluir atributos que proporcionan información adicional sobre el elemento. Por ejemplo, en la etiqueta &lt;img&gt; se utilizan atributos como src para indicar la ubicación de la imagen y alt para describir su contenido, lo cual contribuye a mejorar la accesibilidad de la página.
+    p.mb-4 
+      | De manera general, una etiqueta HTML tiene la forma 
+      code.etiqueta-html &lt;nombre&gt;contenido&lt;/nombre&gt;
+      |  aunque también puede incluir atributos que proporcionan información adicional sobre el elemento. Por ejemplo, en la etiqueta 
+      code.etiqueta-html &lt;img&gt;
+      |  se utilizan atributos como 
+      code.etiqueta-html src 
+      | para indicar la ubicación de la imagen y 
+      code.etiqueta-html alt 
+      | para describir su contenido, lo cual contribuye a mejorar la accesibilidad de la página.
 
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3.g-0.d-none.d-lg-block
@@ -59,7 +68,14 @@
           img(src='@/assets/curso/tema3/img-07.png', alt='')
       .col.col-lg-7.col-12.order-lg-1.order-2
         .cajon.cajon.C01.color-primario.p-4.mb-4
-          p.mb-0(data-aos="fade-down") Las etiquetas HTML pueden clasificarse según su función dentro de la estructura del documento. En primer lugar, se encuentran las etiquetas estructurales, que definen la organización básica de la página web. Entre ellas se encuentran &lt;html&gt;, que representa la raíz del documento; &lt;head&gt;, que contiene información del documento como el título o enlaces a hojas de estilo; y body, donde se ubica el contenido perceptible para el usuario.
+          p.mb-0 
+            | Las etiquetas HTML pueden clasificarse según su función dentro de la estructura del documento. En primer lugar, se encuentran las etiquetas estructurales, que definen la organización básica de la página <em>web</em>. Entre ellas se encuentran 
+            code.etiqueta-html &lt;html&gt;,
+            | que representa la raíz del documento; 
+            code.etiqueta-html &lt;head&gt;,
+            | que contiene información del documento como el título o enlaces a hojas de estilo; y 
+            code.etiqueta-html &lt;body&gt;,
+            | donde se ubica el contenido perceptible para el usuario.
         p Por otra parte, HTML5 incorpora etiquetas semánticas, que permiten describir con mayor claridad el propósito del contenido dentro de la página. Estas etiquetas facilitan la comprensión de la estructura por parte de navegadores, motores de búsqueda y tecnologías de asistencia utilizadas por personas con discapacidad visual.
     
     p.mb-4 A continuación, se presentan algunas de las etiquetas semánticas más utilizadas en HTML5 y su propósito dentro de la estructura de una página <em>web</em>.
@@ -92,7 +108,7 @@
               tr(data-aos="fade-right")
                 td &lt;article&gt;
                 td Contenido independiente o reutilizable.
-                td Entrada de blog o noticia.
+                td Entrada de #[i blog] o noticia.
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") &lt;section&gt;
                 td(style="background-color: #F0F8FF;") Agrupación temática de contenido.
