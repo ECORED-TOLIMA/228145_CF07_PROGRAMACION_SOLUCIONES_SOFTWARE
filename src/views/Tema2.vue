@@ -66,10 +66,10 @@
       h2 2.1. Formularios en aplicaciones de escritorio
 
     .row.justify-content-center.mb-4
-      .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema2/img-04.png', alt='Imagen decorativa')
-      .col.col-lg-8.col-12.order-lg-2.order-2
+      .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C01.color-primario.p-4.mb-4
           p.mb-0(data-aos="fade-down") En las aplicaciones de escritorio, el formulario constituye el elemento principal de la interfaz gráfica a través del cual el usuario interactúa con el sistema. Un formulario se entiende como una ventana que contiene diferentes componentes visuales, como botones, cuadros de texto, etiquetas o listas, los cuales permiten presentar información, ingresar datos y ejecutar acciones dentro de la aplicación.
         .row.mb-4
@@ -78,7 +78,9 @@
               img(src='@/assets/curso/tema2/img-05.svg', alt='Imagen decorativa')
           .col-lg-10.col-12
             p.mb-0 Desde el punto de vista del desarrollo de <em>software</em>, el formulario actúa como un contenedor de controles y como un punto central para gestionar eventos generados por la interacción del usuario, como hacer clic en un botón, escribir información o seleccionar opciones. Cada acción realizada dentro del formulario puede activar un evento que desencadena una respuesta del sistema, lo que permite implementar la lógica funcional de la aplicación.
-        p De esta manera, el formulario se convierte en la estructura básica sobre la cual se construye la interfaz de usuario en aplicaciones de escritorio, ya que organiza los elementos visuales, gestiona la interacción con el usuario y facilita la ejecución de las funcionalidades del sistema.
+    
+    p En muchos entornos de desarrollo de aplicaciones de escritorio, como Windows Forms o WPF en el ecosistema .NET, así como Java Swing, JavaFX o bibliotecas gráficas en Python, los formularios se diseñan mediante herramientas visuales que facilitan la organización de los elementos de la interfaz. Estas herramientas permiten arrastrar y posicionar controles dentro de la ventana, definir propiedades como tamaño, color o comportamiento, y asociar eventos a funciones específicas del programa.    
+    p De esta manera, el formulario se convierte en la estructura básica sobre la cual se construye la interfaz de usuario en aplicaciones de escritorio, ya que organiza los elementos visuales, gestiona la interacción con el usuario y facilita la ejecución de las funcionalidades del sistema.
 
     .bg-c2.px-md-5.px-4
       p Ejemplo de un formulario en una aplicación de escritorio:
