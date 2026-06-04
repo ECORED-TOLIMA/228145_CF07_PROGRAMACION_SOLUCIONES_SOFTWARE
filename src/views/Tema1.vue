@@ -22,7 +22,7 @@
         .col-lg-8(data-aos="fade-left")
           p El concepto de interfaz gráfica se relaciona directamente con el campo de la interacción humano–computadora, conocido como HCI (Human-Computer Interaction). Esta disciplina integra conocimientos de áreas como la informática, la psicología cognitiva, el diseño y la ergonomía, con el fin de mejorar la forma en que las personas interactúan con los sistemas tecnológicos. Dentro de este campo, autores como Don Norman han planteado principios fundamentales para el diseño de interfaces. Entre ellos se destacan el concepto de #[i affordance], que se refiere a las características visuales que sugieren cómo interactuar con un elemento; el #[i feedback], que implica que cada acción realizada por el usuario debe generar una respuesta perceptible; y la visibilidad, que plantea que las funciones más importantes deben ser fácilmente identificables.
           .cajon.cajon.C02.color-secundario.p-4.mb-2
-            p.mb-0(data-aos="fade-down") En el desarrollo de #[i software] es importante diferenciar entre el diseño de la interfaz y su implementación. El diseño se enfoca en aspectos como la organización de los elementos en pantalla, el orden de importancia y el uso de colores, tipografías e iconos que faciliten la comprensión y la navegación. La implementación, por su parte, consiste en traducir ese diseño en una interfaz funcional mediante el uso de tecnologías y lenguajes de programación específicos. Entre las tecnologías más utilizadas se encuentran HTML, CSS y JavaScript para el desarrollo <em>web</em> , así como diversas herramientas y <em>frameworks</em> empleados en aplicaciones de escritorio o móviles.
+            p.mb-0(data-aos="fade-down") En el desarrollo de #[i software] es importante diferenciar entre el diseño de la interfaz y su implementación. El diseño se enfoca en aspectos como la organización de los elementos en pantalla, el orden de importancia y el uso de colores, tipografías e iconos que faciliten la comprensión y la navegación. La implementación, por su parte, consiste en traducir ese diseño en una interfaz funcional mediante el uso de tecnologías y lenguajes de programación específicos. Entre las tecnologías más utilizadas se encuentran HTML, CSS y JavaScript para el desarrollo <em>web</em>, así como diversas herramientas y <em>frameworks</em> empleados en aplicaciones de escritorio o móviles.
 
     .row.justify-content-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
@@ -207,10 +207,10 @@
               p.mb-0 Las funciones importantes del sistema deben ser fácilmente identificables para el usuario. Los elementos interactivos, como botones o enlaces, deben destacarse visualmente para indicar que pueden ser utilizados.
           .row(numero="2" titulo="<em>Affordance</em>")
             .col-12.mb-4.mb-md-0
-              p.mb-0 Es el espacio central donde se almacena el proyecto junto con todo su historial de versiones. Contiene los archivos, las configuraciones y los registros de cambios, y puede ser local o remoto para facilitar el trabajo colaborativo.
+              p.mb-0 Los elementos de la interfaz deben sugerir cómo pueden utilizarse. Por ejemplo, un botón con relieve sugiere que puede presionarse, mientras que un campo de texto indica que se puede escribir en él.
           .row(numero="3" titulo="Retroalimentación (<em>feedback</em>)")
             .col-12.mb-4.mb-md-0
-              p.mb-0 Los elementos de la interfaz deben sugerir cómo pueden utilizarse. Por ejemplo, un botón con relieve sugiere que puede presionarse, mientras que un campo de texto indica que se puede escribir en él.
+              p.mb-0 Cada acción realizada por el usuario debe generar una respuesta perceptible del sistema, como un cambio visual, un mensaje de confirmación o una animación que indique que la acción fue procesada correctamente.
           .row(numero="4" titulo="Consistencia")
             .col-12.mb-4.mb-md-0
               p.mb-0 Los elementos de la interfaz deben mantener comportamientos y apariencias similares en todo el sistema. Esto permite que el usuario aprenda rápidamente cómo interactuar con la aplicación.
@@ -219,7 +219,7 @@
               p.mb-0 La organización de los elementos en pantalla debe permitir que el usuario identifique fácilmente la información más importante. El uso adecuado de tamaños, colores, espacios y tipografías facilita la lectura y la navegación.
           .row(numero="6" titulo="Simplicidad")
             .col-12.mb-4.mb-md-0
-              p.mb-0 una interfaz debe presentar únicamente la información y las opciones necesarias para realizar una tarea. La sobrecarga visual puede generar confusión y dificultar la interacción.
+              p.mb-0 Una interfaz debe presentar únicamente la información y las opciones necesarias para realizar una tarea. La sobrecarga visual puede generar confusión y dificultar la interacción.
 
     p La aplicación de estos principios contribuye a diseñar interfaces más claras, coherentes y fáciles de utilizar, favoreciendo una interacción eficiente entre el usuario y el sistema informático. Estos fundamentos constituyen la base para el desarrollo de aplicaciones de escritorio, <em>web</em>  y móviles orientadas a mejorar la experiencia del usuario.
 

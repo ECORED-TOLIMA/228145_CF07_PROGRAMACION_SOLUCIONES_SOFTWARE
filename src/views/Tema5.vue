@@ -23,7 +23,7 @@
       .col.col-lg-7.col-12.order-lg-1.order-2
         p El uso de CSS es fundamental en el desarrollo de interfaces #[i web] modernas porque permite separar el contenido de la presentación visual. Esta separación facilita la organización del código, mejora la mantenibilidad del proyecto y permite aplicar cambios de diseño de manera global sin necesidad de modificar la estructura HTML de cada página.
         .cajon.cajon.C01.color-primario.p-4.mb-4
-          p.mb-0(data-aos="fade-down") Además, CSS hace posible la creación de interfaces adaptables a diferentes dispositivos, como computadores, tabletas y teléfonos móviles, mediante técnicas de diseño responsivo. Para ello se utilizan herramientas como #[i flexbox, grid], media #[i queries] y sistemas de diseño que permiten reorganizar los elementos de la interfaz según el tamaño de la pantalla.
+          p.mb-0(data-aos="fade-down") Además, CSS hace posible la creación de interfaces adaptables a diferentes dispositivos, como computadores, tabletas y teléfonos móviles, mediante técnicas de diseño responsivo. Para ello se utilizan herramientas como Flexbox, Grid, Media Queries y sistemas de diseño que permiten reorganizar los elementos de la interfaz según el tamaño de la pantalla.
         p El desarrollo de CSS forma parte de los estándares definidos por el World Wide #[i Web Consortium] (W3C), lo que garantiza que las reglas de estilo se interpreten de forma consistente en los distintos navegadores #[i web]. Gracias a estos estándares, los desarrolladores pueden crear interfaces visualmente atractivas, accesibles y compatibles con múltiples plataformas.
 
     Separador
@@ -370,9 +370,9 @@
       .bloque-texto-g__texto.p-4
         p.mb-0(data-aos="fade-down") En dispositivos móviles, los componentes suelen organizarse en una sola columna para facilitar la lectura y la navegación táctil, mientras que en pantallas de escritorio es posible distribuir el contenido en varias columnas y aprovechar mejor el espacio disponible. Este enfoque responsivo contribuye a mejorar la experiencia del usuario en diferentes dispositivos y contextos de uso, permitiendo que una misma interfaz mantenga su funcionalidad, claridad y accesibilidad independientemente del tamaño de la pantalla.
 
-    .row.justify-content-center(data-aos="fade-left")
+    .row.justify-content-center
       .col-lg-10
-        .tarjeta.tarjeta--gris2.p-4.mb-4(data-aos="fade-left")
+        .tarjeta.tarjeta--gris2.p-4.mb-4
           .row.justify-content-around
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema5/icono-01.svg")
@@ -380,7 +380,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1(style="color:#000") Aplicando el CSS
-                  p Para complementar la información sobre CSS, se recomienda acceder al siguiente video: 
+                  p Para complementar la información sobre CSS, se recomienda acceder al siguiente video:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=_qlj_FyUR-w" target="_blank" rel="noopener noreferrer")
                     span Enlace web

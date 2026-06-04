@@ -31,7 +31,7 @@
       .row.justify-content-center.mb-4(data-aos="fade-right")
         .col-lg-10.col-12
           .cajon.cajon.C01.color-primario.p-4
-            p.mb-0 En este componente formativo se abordan los conceptos y elementos esenciales para el diseño e implementación de interfaces gráficas en aplicaciones de escritorio y <em>web</em> . Asimismo, se estudian los principios de usabilidad, el uso de formularios y componentes de interfaz, los estándares del W3C y los <em>frameworks</em> para el desarrollo de interfaces, así como la aplicación de hojas de estilo CSS para mejorar la presentación y organización visual de las páginas <em>web</em> .
+            p.mb-0 En este componente formativo se abordan los conceptos y elementos esenciales para el diseño e implementación de interfaces gráficas en aplicaciones de escritorio y <em>web</em>. Asimismo, se estudian los principios de usabilidad, el uso de formularios y componentes de interfaz, los estándares del W3C y los <em>frameworks</em> para el desarrollo de interfaces, así como la aplicación de hojas de estilo CSS para mejorar la presentación y organización visual de las páginas <em>web</em>.
 
     p.mb-4 Para comprender la importancia del contenido y los temas abordados, se recomienda acceder al siguiente video:
 

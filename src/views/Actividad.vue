@@ -20,7 +20,7 @@ export default {
       tema: 'Explorando el mundo de las interfaces gráficas.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión de los conceptos fundamentales de las interfaces gráficas de usuario, incluyendo su diseño, usabilidad, aplicaciones en escritorio y <em>web</em>, así como el uso de estándares, <em>frameworks</em> y hojas de estilo CSS en el desarrollo de interfaces.',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales de las interfaces gráficas de usuario, incluyendo su diseño, usabilidad, aplicaciones en escritorio y <em>web</em>, así como el uso de estándares, <em>frameworks</em> y hojas de estilo CSS en el desarrollo de interfaces.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

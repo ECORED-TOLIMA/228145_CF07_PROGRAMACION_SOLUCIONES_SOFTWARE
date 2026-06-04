@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/tema4/img-01.png', alt='')
 
-    p.mb-4 El desarrollo de interfaces <em>web</em> modernas se fundamenta en el uso de #[b estándares abiertos] que garantizan la interoperabilidad, accesibilidad y funcionamiento de las páginas <em>web</em> en diferentes navegadores y dispositivos. Estos estándares son definidos y mantenidos principalmente por organizaciones internacionales como el World Wide <em>web</em> Consortium (W3C), entidad fundada en 1994 por Tim Berners-Lee, creador de la <em>web</em>. Su objetivo es establecer recomendaciones técnicas que permitan construir sitios y aplicaciones <em>web</em> compatibles, accesibles y sostenibles en el tiempo.
+    p.mb-4 El desarrollo de interfaces <em>web</em> modernas se fundamenta en el uso de #[b estándares abiertos] que garantizan la interoperabilidad, accesibilidad y funcionamiento de las páginas <em>web</em> en diferentes navegadores y dispositivos. Estos estándares son definidos y mantenidos principalmente por organizaciones internacionales como el World Wide Web Consortium (W3C), entidad fundada en 1994 por Tim Berners-Lee, creador de la <em>web</em>. Su objetivo es establecer recomendaciones técnicas que permitan construir sitios y aplicaciones <em>web</em> compatibles, accesibles y sostenibles en el tiempo.
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -40,7 +40,7 @@
           img(src='@/assets/curso/tema4/img-03.png', alt='')
       .col.col-lg-8.col-12.order-lg-1.order-2
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p.mb-0(data-aos="fade-down") Los estándares <em>web</em> son especificaciones técnicas que garantizan que los sitios y aplicaciones <em>web</em> funcionen de manera consistente en diferentes navegadores, sistemas operativos y dispositivos. Estas especificaciones son desarrolladas principalmente por el World Wide <em>web</em> Consortium (W3C), organización internacional fundada por Tim Berners-Lee en 1994 con el propósito de asegurar el crecimiento abierto y la interoperabilidad de la <em>web</em>.
+          p.mb-0(data-aos="fade-down") Los estándares <em>web</em> son especificaciones técnicas que garantizan que los sitios y aplicaciones <em>web</em> funcionen de manera consistente en diferentes navegadores, sistemas operativos y dispositivos. Estas especificaciones son desarrolladas principalmente por el World Wide Web Consortium (W3C), organización internacional fundada por Tim Berners-Lee en 1994 con el propósito de asegurar el crecimiento abierto y la interoperabilidad de la <em>web</em>.
         p El W3C publica #[b recomendaciones], que son documentos técnicos que describen cómo deben implementarse las tecnologías <em>web</em>. Estas recomendaciones pasan por un riguroso proceso de revisión que involucra a empresas tecnológicas, instituciones académicas y comunidades de desarrolladores. Entre las especificaciones más relevantes para el desarrollo de interfaces <em>web</em> se encuentran:
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
@@ -217,7 +217,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1(style="color:#000") #[i Frameworks] del #[i Front-end]
-                  p Para complementar la información sobre <em>frameworks</em> del <em>front-ent</em>, se recomienda acceder al siguiente video: 
+                  p Para complementar la información sobre <em>frameworks</em> del <em>front-end</em>, se recomienda acceder al siguiente video: 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=Z-YzV72qq4o " target="_blank" rel="noopener noreferrer")
                     span Enlace web

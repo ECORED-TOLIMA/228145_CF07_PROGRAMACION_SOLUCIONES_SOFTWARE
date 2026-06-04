@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/tema2/img-01.png', alt='')
 
-    p.mb-4 Las aplicaciones de escritorio son aquellas que se ejecutan directamente en un sistema operativo como Windows, macOS o Linux sin requerir un navegador <em>web</em> , han sido históricamente uno de los entornos más importantes para el desarrollo de interfaces gráficas. Este tipo de aplicaciones permiten a las personas interactuar con el <em>software</em> mediante elementos visuales como ventanas, botones, menús, formularios y cuadros de diálogo, facilitando la ejecución de tareas y el acceso a funcionalidades del sistema. Aunque en los últimos años las aplicaciones <em>web</em> han ganado gran popularidad, las aplicaciones de escritorio continúan siendo ampliamente utilizadas en contextos donde se requiere alto rendimiento, acceso directo al sistema operativo, trabajo sin conexión a internet o manejo de grandes volúmenes de información.
+    p.mb-4 Las aplicaciones de escritorio son aquellas que se ejecutan directamente en un sistema operativo como Windows, macOS o Linux sin requerir un navegador <em>web</em>, han sido históricamente uno de los entornos más importantes para el desarrollo de interfaces gráficas. Este tipo de aplicaciones permiten a las personas interactuar con el <em>software</em> mediante elementos visuales como ventanas, botones, menús, formularios y cuadros de diálogo, facilitando la ejecución de tareas y el acceso a funcionalidades del sistema. Aunque en los últimos años las aplicaciones <em>web</em> han ganado gran popularidad, las aplicaciones de escritorio continúan siendo ampliamente utilizadas en contextos donde se requiere alto rendimiento, acceso directo al sistema operativo, trabajo sin conexión a internet o manejo de grandes volúmenes de información.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
@@ -189,50 +189,55 @@
                 td(style="background-color: #F0F8FF;") CheckedChanged
                 td(style="background-color: #F0F8FF;") if (rbMasculino.Checked) { genero = "Masculino"; }
               tr(data-aos="fade-right")
-                td ListBox
-                td Seleccionar uno o varios elementos de una lista visible.
+                td ComboBox
+                td Seleccionar un elemento de una lista desplegable.
                 td SelectedIndexChanged
-                td foreach(var item in lstProductos.SelectedItems)
+                td string ciudad = cmbCiudades.SelectedItem.ToString();
               tr(data-aos="fade-right")
-                td(style="background-color: #F0F8FF;") DataGridView
-                td(style="background-color: #F0F8FF;") Presentar datos tabulares.
-                td(style="background-color: #F0F8FF;") CellClick, CellValueChanged
-                td(style="background-color: #F0F8FF;") dataGrid.DataSource = dataTable;
-              tr(data-aos="fade-right")
-                td DateTimePicker
-                td Seleccionar fecha y hora.
-                td ValueChanged
-                td DateTime fecha = dtpNacimiento.Value;
-              tr(data-aos="fade-right")
-                td(style="background-color: #F0F8FF;") NumericUpDown
-                td(style="background-color: #F0F8FF;") Entrada de valores numéricos.
-                td(style="background-color: #F0F8FF;") ValueChanged.
-                td(style="background-color: #F0F8FF;") int cantidad = (int)numCantidad.Value;
-              tr(data-aos="fade-right") 
-                td PictureBox
-                td Presentar imágenes.
-                td Click (opcional)
-                td picLogo.Image = Image.FromFile("logo.png");
-              tr(data-aos="fade-right")
-                td(style="background-color: #F0F8FF;") Panel
-                td(style="background-color: #F0F8FF;") Agrupar controles para organización.
-                td(style="background-color: #F0F8FF;") Resize, Paint
-                td(style="background-color: #F0F8FF;") pnlBotones.Controls.Add(btnAceptar);
-              tr(data-aos="fade-right") 
-                td GroupBox
-                td Agrupar controles con borde y título.
-                td No aplica
-                td Agrupar RadioButtons dentro
-              tr(data-aos="fade-right")
-                td(style="background-color: #F0F8FF;") TabControl
-                td(style="background-color: #F0F8FF;") Organizar contenido en pestañas.
+                td(style="background-color: #F0F8FF;") ListBox
+                td(style="background-color: #F0F8FF;") Seleccionar uno o varios elementos de una lista visible.
                 td(style="background-color: #F0F8FF;") SelectedIndexChanged
-                td(style="background-color: #F0F8FF;") tabProductos.SelectedTab = tabDetalles;
+                td(style="background-color: #F0F8FF;") foreach(var item in lstProductos.SelectedItems)
+              tr(data-aos="fade-right")
+                td DataGridView
+                td Presentar datos tabulares.
+                td CellClick, CellValueChanged
+                td dataGrid.DataSource = dataTable;
+              tr(data-aos="fade-right")
+                td(style="background-color: #F0F8FF;") DateTimePicker
+                td(style="background-color: #F0F8FF;") Seleccionar fecha y hora.
+                td(style="background-color: #F0F8FF;") ValueChanged
+                td(style="background-color: #F0F8FF;") DateTime fecha = dtpNacimiento.Value;
+              tr(data-aos="fade-right")
+                td NumericUpDown
+                td Entrada de valores numéricos.
+                td ValueChanged.
+                td int cantidad = (int)numCantidad.Value;
               tr(data-aos="fade-right") 
-                td ErrorProvider
-                td Presentar indicadores de error de validación.
-                td Asociado a validación
-                td errorProvider.SetError(txtEmail, "Email inválido");
+                td(style="background-color: #F0F8FF;") PictureBox
+                td(style="background-color: #F0F8FF;") Presentar imágenes.
+                td(style="background-color: #F0F8FF;") Click (opcional)
+                td(style="background-color: #F0F8FF;") picLogo.Image = Image.FromFile("logo.png");
+              tr(data-aos="fade-right")
+                td Panel
+                td Agrupar controles para organización.
+                td Resize, Paint
+                td pnlBotones.Controls.Add(btnAceptar);
+              tr(data-aos="fade-right") 
+                td(style="background-color: #F0F8FF;") GroupBox
+                td(style="background-color: #F0F8FF;") Agrupar controles con borde y título.
+                td(style="background-color: #F0F8FF;") No aplica
+                td(style="background-color: #F0F8FF;") Agrupar RadioButtons dentro
+              tr(data-aos="fade-right")
+                td TabControl
+                td Organizar contenido en pestañas.
+                td SelectedIndexChanged
+                td tabProductos.SelectedTab = tabDetalles;
+              tr(data-aos="fade-right") 
+                td(style="background-color: #F0F8FF;") ErrorProvider
+                td(style="background-color: #F0F8FF;") Presentar indicadores de error de validación.
+                td(style="background-color: #F0F8FF;") Asociado a validación
+                td(style="background-color: #F0F8FF;") errorProvider.SetError(txtEmail, "Email inválido");
 
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.col-12
