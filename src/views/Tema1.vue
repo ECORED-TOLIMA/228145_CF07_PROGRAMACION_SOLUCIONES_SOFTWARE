@@ -29,7 +29,7 @@
         figure
           img(src='@/assets/curso/tema1/img-03.svg', alt='')
       .col.col-lg-11.col-12.order-lg-2.order-2
-        p.mb-0(data-aos="fade-down") El desarrollo de las interfaces gráficas de usuario ha evolucionado de manera significativa a lo largo del tiempo, impulsado por los avances tecnológicos y por la necesidad de facilitar la interacción entre las personas y los sistemas informáticos. Desde los primeros experimentos en laboratorios de investigación hasta las interfaces actuales presentes en computadores, dispositivos móviles y aplicaciones <em>web</em> , las GUI han incorporado nuevos elementos visuales, formas de interacción y criterios de diseño orientados a mejorar la experiencia del usuario.
+        p.mb-0(data-aos="fade-down") El desarrollo de las interfaces gráficas de usuario ha evolucionado de manera significativa a lo largo del tiempo, impulsado por los avances tecnológicos y por la necesidad de facilitar la interacción entre las personas y los sistemas informáticos. Desde los primeros experimentos en laboratorios de investigación hasta las interfaces actuales presentes en computadores, dispositivos móviles y aplicaciones <em>web</em>, las GUI han incorporado nuevos elementos visuales, formas de interacción y criterios de diseño orientados a mejorar la experiencia del usuario.
 
     p.mb-4 Con el fin de comprender este proceso de transformación, a continuación, se presenta una síntesis de algunos hitos representativos en la evolución de las interfaces gráficas de usuario.
 
